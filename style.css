@@ -10,40 +10,86 @@
     display: flex;
     align-items: center;
     width: 100%;
+    margin: 10px;
+    background-color: #ffffff;
 }
 
 .container-search-bar{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 10px;
 }
 
 
 ul{
     list-style: none;
+    padding: 0;
+    
 }
 
 ul#menu li{
     display: inline;
 }
 
-
-
-.sidebar {
-    background-color: #f4f4f4;
-    width: 200px;
+.space{
+    margin: 0 5px;
 }
 
-nav ul {
+.search{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    background-color: #e5e5e5 ;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.bell{
+    color: orange;
+}
+
+.dropstart .dropdown-toggle::before{
+    display: none;
+}
+
+.sidebar{
+    background-color: #0a2238;
+    color: white;
+    min-height: 50vh;
+    padding: 20px;
+    width: 200px;
+    max-width: 100%;
+  }
+
+.sidebar ul {
     list-style-type: none;
     padding: 0;
+    margin: 0;
 }
 
-nav ul li {
+.sidebar li {
     padding: 10px;
+    color: #fff;
 }
 
-nav ul li a {
-    text-decoration: none;
-    color: #333;
+.content {
+    margin-left: 250px; /* Larghezza della sidebar */
+    padding: 20px;
 }
+
+/* Stile per i link della sidebar */
+.sidebar a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Stile per i link quando sono passati sopra */
+.sidebar a:hover {
+    color: #ddd;
+}
+
+.col-md-2{
+    padding: 0;
+}
+  
