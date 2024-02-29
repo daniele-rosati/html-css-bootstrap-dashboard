@@ -1,4 +1,4 @@
-
+/* --- container --- */
 .container{
     
     display: flex;
@@ -28,6 +28,9 @@
     max-width: 100%;
 }
 
+/* --- container --- */
+
+/*--- list --- */
 
 ul{
     list-style: none;
@@ -37,11 +40,20 @@ ul{
 
 ul#menu li{
     display: inline;
+    
+}
+
+ul#menu{
+    margin-bottom: 0;
 }
 
 .space{
     margin: 0 5px;
 }
+
+/*--- list --- */
+
+/* -- serch --- */
 
 .search{
     display: flex;
@@ -51,6 +63,15 @@ ul#menu li{
     width: 100%;
     border-radius: 10px;
 }
+
+.search p, .icon{
+    margin: 0;
+    padding: 2px;
+}
+
+/* -- serch --- */
+
+/* --- dropdown --- */
 
 .bell{
     color: orange;
@@ -64,12 +85,16 @@ ul#menu li{
     text-decoration: none;
 }
 
+/* --- dropdown --- */
+
+/* --- sidebar --- */
+
 .sidebar{
     background-color: #0a2238;
     color: white;
     min-height: 50vh;
     padding: 20px;
-    width: 200px;
+    
     max-width: 100%;
     display: flex;
     flex-direction: column;
@@ -103,13 +128,76 @@ ul#menu li{
     color: #ddd;
 }
 
-.col-md-2{
+/* --- sidebar --- */
+
+/* --- column ---*/
+
+.col-new-student{
     padding-right: 0;
-    width: fit-content;
+    background-color: #1b72e8;
+    height: 100px;
+    padding-top: 10px;
+    text-align: right;
 }
-  
-.row{
+
+.col-2{
+   padding-right: 0;
+    
+}
+
+.col-3{
+    background-color: #1b72e8;
+    height: 100px;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.col-5{
+    color: white;
+    font-size: 15px;
+}
+
+.col-7{
+    background-color: #1b72e8;
+    height: 100px;
     display: flex;
-    flex-wrap: nowrap;
-    flex-shrink: unset;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-left: 15px;
+    text-align: left;
+}
+
+.col-9{
+    padding-top:13px;
+}
+
+.col-10{
+    padding: 0 ;
+}
+
+
+  
+/* --- column ---*/
+
+/*--- typograghy ---*/
+
+/*--- typograghy ---*/
+
+.title{
+    font-size: 30px;
+    color: white;
+}
+
+.title-10{
+    font-size: 15px;
+    color: white;
+}
+
+/*--- button ---*/
+
+.btn-head{
+    border-radius: 30px;
+    color: white;
+    background-color: #165bba;
+    border: none;
 }
