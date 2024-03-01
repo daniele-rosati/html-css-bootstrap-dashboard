@@ -138,10 +138,14 @@ ul#menu{
     height: 100px;
     padding-top: 10px;
     text-align: right;
+    color: white;
+    display: flex;
+    align-items: center;
 }
 
 .col-2{
    padding-right: 0;
+   padding-left: 0;
     
 }
 
@@ -150,6 +154,9 @@ ul#menu{
     height: 100px;
     padding-top: 10px;
     padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .col-5{
@@ -200,4 +207,46 @@ ul#menu{
     color: white;
     background-color: #165bba;
     border: none;
+}
+
+.btn-pencil{
+    margin-right: 5px;
+    border: 1px thin gray ;
+    background-color: white;
+    border-style: solid;
+    color: grey;
+    border-radius: 5px;
+}
+
+.btn-trash{
+    border: 1px thin gray ;
+    background-color: white;
+    border-style: solid;
+    color: grey;
+    border-radius: 5px;
+}
+
+/*--- button ---*/
+
+/*--- tag ---*/
+
+.tag-done{
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 30px;
+}
+
+.tag-process{
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 30px ;
+}
+
+.tag-falied{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 30px;
 }
